@@ -9,7 +9,7 @@
 
 	function ListaFilmeController($rootScope,BuscarFilmeAPI) {
 		var ctrl = this;
-		ctrl.titulo = 'Encontre seu filme';	
+		ctrl.titulo = 'Encontre seu carro';	
 		ctrl.textoBusca = null;
 
 		ctrl.Buscar = function() {

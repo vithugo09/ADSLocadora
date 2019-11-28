@@ -1,5 +1,5 @@
 angular.module('Locadora',[]).run(['$rootScope', function($rootScope) {
-	$rootScope.titulo = 'Locadora de Filmes';	
+	$rootScope.titulo = 'Locadora de Carros';	
 	$rootScope.layout = {
 		exibeListaFilme: true,
 		exibeDetalheFilme: false,

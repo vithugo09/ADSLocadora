@@ -24,7 +24,7 @@
 	<script type="text/javascript" src="public/js/Notificacao.controller.js"></script>
 	<link rel="stylesheet" type="text/css" href="public/css/index.css">
 </head>
-<body>
+<body class="fundo">
 	<div class="container">
 		<div class="jumbotron" ng-controller="CabecalhoController as cc">
 			<img src="public/imagens/logo.png" width="220" height="100">
@@ -68,12 +68,12 @@
 			<div class="panel-body">
 				<div class="row">
 					<div class="col-xs-12" ng-show="cc.exibeLista().length > 0">
-						<h3>Filmes adicionados</h3>
+						<h3>Carros adicionados</h3>
 						<ul>
 							<li ng-repeat="filme in cc.exibeLista()">
 								<img ng-src="{{ filme.urlCapa }}" />
 								{{ filme.titulo }} - Qtd: {{ filme.quantidade }}
-								<button ng-click="cc.removerFilme(filme);" class="btn btn-danger">Remover filme</button>
+								<button ng-click="cc.removerFilme(filme);" class="btn btn-danger">Remover Carro</button>
 							</li>
 						</ul>
 					</div>
@@ -99,7 +99,7 @@
 					</div>
 
 					<div class="col-xs-12" ng-show="lf.lista.length > 0">
-						<h3>Filmes encontrados</h3>
+						<h3>Carros encontrados</h3>
 						<ul>
 							<li ng-repeat="filme in lf.lista">
 								{{ filme.titulo }}

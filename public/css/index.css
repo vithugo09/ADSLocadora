@@ -10,9 +10,20 @@
 			background-color: black;
 		}
 		.panel-primary>.panel-heading{
-			background-color: #00A859;
-			border-color: #00A859;
+			background-color: black;
+			
 		}
+		.panel-primary{
+			border-color: black;
+
+		}
+
 		.jumbotron{
 			width: 100%;
+		}
+		.fundo{
+			background-color: #00A859;
+		}
+		.jumbotron{
+			background-color: white;
 		}
