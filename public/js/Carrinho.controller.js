@@ -10,13 +10,13 @@
 		var ctrl = this;
 		ctrl.titulo = 'Carrinho de Compras';	
 		
-		ctrl.removerFilme = function(oFilme) {
+		ctrl.removerCarro = function(oCarro) {
 
-			CarrinhoCompraService.removerFilme(oFilme.titulo);
+			CarrinhoCompraService.removerCarro(oCarro.titulo);
 		}
 
 		ctrl.exibeLista = function() {
-			return CarrinhoCompraService.listaFilmes;
+			return CarrinhoCompraService.listaCarros;
 		}
 	}
 })();
